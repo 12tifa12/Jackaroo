@@ -1,0 +1,14 @@
+# portable JDK downloaded locally (large, not source)
+.tools/
+
+# build output
+out/
+bin/
+target/
+
+# backups and logs
+*.bak
+*.log
+
+# course milestone tests (kept locally, not published)
+src/test/

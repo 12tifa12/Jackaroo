@@ -1,0 +1,36 @@
+.root {
+    -fx-background-color: #f0f0f0;
+}
+
+.button {
+    -fx-background-color: #4a90e2;
+    -fx-text-fill: white;
+    -fx-font-size: 14px;
+    -fx-padding: 8px 16px;
+    -fx-background-radius: 4px;
+}
+
+.button:hover {
+    -fx-background-color: #357abd;
+}
+
+.button:pressed {
+    -fx-background-color: #2d6da3;
+}
+
+.label {
+    -fx-font-size: 14px;
+}
+
+#statusLabel {
+    -fx-font-size: 16px;
+    -fx-font-weight: bold;
+}
+
+#turnLabel {
+    -fx-font-size: 18px;
+    -fx-font-weight: bold;
+    -fx-padding: 8px;
+    -fx-background-color: rgba(255, 255, 255, 0.8);
+    -fx-background-radius: 4px;
+} 
